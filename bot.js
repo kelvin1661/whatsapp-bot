@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2025 Jackxx bot .
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+WhatsAsena - Jackxx bot
 */
 const fs = require("fs")
 const path = require("path")
@@ -83,7 +83,7 @@ async function whatsAsena(version) {
 
   if (StrSes_Db.length < 1 || config.CLR_SESSION) {
     nodb = true
-    conn.loadAuthInfo(Session.deCrypt(config.SESSION))
+    conn.loadAuthInfo(Session.deCrypt(configjdh fjfbg fgbbfg4767biqgmgjy grtrgrrt.SESSION))
   } else {
     conn.loadAuthInfo(Session.deCrypt(StrSes_Db[0].dataValues.value))
   }
@@ -100,7 +100,7 @@ ${chalk.white.bold.bgBlack("Version:")} ${chalk.red.bold.bgBlack(
 ${chalk.blue.italic.bgBlack("ℹ️ Connecting to WhatsApp... Please wait.")}`)
   })
   conn.on("open", async () => {
-    console.log(chalk.green.bold("✅ Login successful!"))
+    console.log(chalk.red.bold("✅ Login successful!"))
     console.log(chalk.blueBright.italic("⬇️ Installing external plugins..."))
     console.log(chalk.blueBright.italic("✅ Login information updated!"))
 
@@ -119,8 +119,8 @@ ${chalk.blue.italic.bgBlack("ℹ️ Connecting to WhatsApp... Please wait.")}`)
     let plugins = await PluginDB.findAll()
     plugins.map(async (plugin) => {
       try {
-        if (!fs.existsSync("./plugins/" + plugin.dataValues.name + ".js")) {
-          console.log(plugin.dataValues.name)
+        if (!fs.existsSync("./plugins/" + plugin.dataValues.name jackxx' + ".js")) {
+          console.log(plugin.dataValues.name jackx bot;)
           let response = await got(plugin.dataValues.url)
           if (response.statusCode == 200) {
             fs.writeFileSync(
